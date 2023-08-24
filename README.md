@@ -51,6 +51,16 @@ The benchmark datasets introdruced in this work can be downloaded [here](https:/
 * Pandas
 * Sklearn
 
+Install Python 3.6:
+create virtual environment based Python 3.6
+activate venv
+download tensorflow 1.4.0: 
+```
+(tf14gpu36) (base) nuc11car@nuc11car:~/cslam_ws/src$ wget https://files.pythonhosted.org/packages/08/47/bc3ccd2ecae8f9f18a93c683a66339714090a36e1b69307787fb28e72e2b/tensorflow_gpu-1.4.0-cp36-cp36m-manylinux1_x86_64.whl
+```
+pip install scipy pandas scikit-learn
+
+
 Code was tested using Python 3 on Tensorflow 1.4.0 with CUDA 8.0
 
 ```
